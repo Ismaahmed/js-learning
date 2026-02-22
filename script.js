@@ -37,3 +37,34 @@
 //     console.log("F")
 //  }
 
+// let age = 12;
+// if (age >= 18 && age <= 30){
+//     console.log("La aqbalay")
+// } 
+// else if (age <= 18 || age => 30) {
+//     console.log("Lama aqbalin")
+
+// }
+let score = 45;
+if (score >= 50 && score <= 100){
+    console.log("Pass")
+} else if (score < 50){
+    console.log("fail")
+}
+ 
+let hour = 22;
+if (hour >= 6 && hour <= 18 ){
+    console.log("Maalin")
+}else {
+    console.log("Habeen")
+}
+
+let temp = 30;
+if (temp > 25 && temp < 40){
+    console.log("Kulul")
+}else if (temp <= 25) {
+    console.log("Qabow")
+
+} else if(temp >= 40 ){
+    console.log("Aad u kulul")
+}
